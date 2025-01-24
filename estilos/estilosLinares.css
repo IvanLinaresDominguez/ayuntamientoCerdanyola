@@ -1,8 +1,10 @@
 /* HEADER */
+
 header {
     width: 100%;
 }
 
+/* Navegador */
 nav {
     background: rgba(0,0,0,0.9);
     padding-left: 10%;
@@ -30,16 +32,18 @@ nav ul li a {
 nav ul li:hover {
     background: #3ead47;
 }
-
+/* Centrado del navegador */
 * {
     padding: 0;
     margin: 0;
 }
-  
+.navegador{
+    top: 0%;
+}
 p {
     margin-bottom: 20px;
 }
-
+/* Banner arriba */
 .ayuntamiento {
     background: #fff;
     color: #3ead47;
@@ -56,13 +60,13 @@ p {
     padding: 20px;
     width: 75px;
 }
-.navegador{
-    top: 0%;
-}
+
 /*BODY*/
+/*Imagen Banner debajo del buscador*/
 .imgBanner{
     width: 100%;
 }
+/*Seccion Informacion ZONA*/
 .imgPuntVerd{
     display: flex; 
     padding-left: 10%;  
@@ -97,6 +101,8 @@ p {
     text-align: center;
     margin-bottom: 4%;
 }
+
+/*Seccion Informacion DESTACADA*/
 .actualidad{
     display: flex; 
     padding-left: 10%;  
@@ -136,7 +142,7 @@ table a{
     color: black;
 }
 
-/* Fondo básico */
+/* Fondo MEDIOAMBIENTales */
 .fondo {
     background-color: rgb(154, 214, 136);
 }
@@ -170,6 +176,7 @@ table a{
     text-align: justify;
     color: #333;
 }
+/* Imagenes de las tablas */
 .imagenes-MMA{
     justify-content: center;
     border-radius: 10px; 
